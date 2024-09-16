@@ -1,6 +1,5 @@
 # Day 8 
 #Reverse the words in a string
-
 def ReverseWords(s):
     i=j=0
     s=s.strip()
