@@ -17,6 +17,6 @@ def count_of_substr(s,k):
     return res
 s="abc"
 k=2
-res=count_of_substr(s,k)
+res=count_of_substr(s,k) 
 print("Count:",res)
 
