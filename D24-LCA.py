@@ -12,7 +12,6 @@ def lowestCommonAncestor(root,p,q):
     right = lowestCommonAncestor(root.right, p, q)
     if left and right:
         return root
-    
     return left if left else right
 def buildTree(values):
     if not values:
