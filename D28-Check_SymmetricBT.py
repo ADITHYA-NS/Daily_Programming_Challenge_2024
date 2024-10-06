@@ -1,4 +1,4 @@
-# Day 28
+# Day 28 
 # Check if a binary tree is symmetric or not
 def is_symmetric_array(arr):
     def is_mirror(lf, ri):
